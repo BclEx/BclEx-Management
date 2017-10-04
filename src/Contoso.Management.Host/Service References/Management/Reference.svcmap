@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f715f7b1-04a7-4268-8591-388061e9d723" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59158/ServiceManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceManagement.xsd" MetadataType="Schema" ID="8d3d6c92-8bb6-4bd3-88c7-308fa6971daf" SourceId="1" SourceUrl="http://localhost:59158/ServiceManagement.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceManagement1.xsd" MetadataType="Schema" ID="db13d91a-1c7a-4bce-80d5-897cad25e114" SourceId="1" SourceUrl="http://localhost:59158/ServiceManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceManagement.wsdl" MetadataType="Wsdl" ID="1c0e89a6-0f47-4ebd-8004-cc53a81c467d" SourceId="1" SourceUrl="http://localhost:59158/ServiceManagement.svc?wsdl" />
+    <MetadataFile FileName="ServiceManagement2.xsd" MetadataType="Schema" ID="8b275b5a-9c5e-44ea-9a14-e8ee26920ab3" SourceId="1" SourceUrl="http://localhost:59158/ServiceManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceManagement.disco" MetadataType="Disco" ID="ce86aad8-325e-4c17-a753-48d9713dc8a3" SourceId="1" SourceUrl="http://localhost:59158/ServiceManagement.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
